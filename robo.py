@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 st.title("Academic Performance Analyzer")
 st.write("ML based Student Pass/Fail Prediction System")
 
-data = pd.read_csv("student_data.csv")
+data = pd.read_csv("Student_data.csv")
 
 st.subheader("Student Dataset")
 st.dataframe(data)
