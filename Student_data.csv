@@ -9,3 +9,4 @@ study_hours,attendance,previous_marks,assignment_score,result
 1,40,30,35,Fail
 9,90,85,90,Pass
 10,95,90,95,Pass
+data=pd.read_csv("student_data.csv")
